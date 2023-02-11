@@ -131,7 +131,7 @@ class ABPPM_STARTUP:
                         print("Skipping installation of missing packages.\033[0m")
                 else:
                     print("\033[32mAll dependencies are already installed.\033[0m")
-            elif CLI_INPUT.__contains__("ABPPM"):
+            elif CLI_INPUT.__contains__("ABPPM") or CLI_INPUT.__contains__("abppm"):
                 print("\033[32m\t- src <package>")
                 print("\t- pkg_check <package>")
                 print("\t- package_install <package>")
